@@ -74,7 +74,7 @@ while choix != b"fin":
     try:
         choix = int(choix)
     except ValueError:
-        print "Oups, ce n'est pas un int"
+        print "Oups, ce n est pas un int"
 
                          
     if (choix != 1 and choix != 2 ):           
